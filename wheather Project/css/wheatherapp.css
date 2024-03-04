@@ -1,0 +1,50 @@
+
+
+.wheather {
+    text-align: center;
+    top: 10%;
+}
+#city {
+    height: 20px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.wheather button {
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    font-size: larger;
+    cursor: pointer; 
+}
+.report {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.lRAD1aBr-oFKY8hOKRtVHQHaEo&pid=Api&P=0&h=180');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%; 
+    width: fit-content;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex; 
+    justify-content: space-between; 
+    margin: 20px;
+
+}
+.card {
+    flex: 0 1 calc(33.33% - 20px); 
+    border-radius: 10px;
+    background-color: rgb(44, 43, 43);
+    text-align: center;
+    padding: 15px; 
+    box-sizing: border-box; 
+}
+.card h1 {
+    font-size: larger;
+    color: white;
+}
